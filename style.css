@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background: #141414;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.page {
+  display: inline-block;
+  height: 1000px;
+  width: 700px;
+  background: #1f1f1f;
+  border-radius: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 30%;
+  border-radius: 50%;
+}
+
+.name, .profession {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.location {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #c5f82a;
+  font-style: bold;
+  font-weight: 600;
+}
+
+button {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px;
+  width: 75%;
+  height: 80px;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  color: white;
+  background: #424242;
+  font-weight: 700;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transition : 200ms;
+  background-color: #c5f82a;
+  color: #1f1f1f;
+  transform : scaleX(1.05);
+}
+
+.button:not(:hover) {
+  transform: scaleX(1);
+  transform: color("white")
+}
